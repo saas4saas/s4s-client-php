@@ -1,4 +1,4 @@
-# Swagger\Client\SsNotificationApi
+# s4s\SsNotificationApi
 
 All URIs are relative to *https://*
 
@@ -23,15 +23,15 @@ Method | HTTP request | Description
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsNotificationApi();
+$api_instance = new s4s\Api\SsNotificationApi();
 $name = "name_example"; // string | 
 $email = "email_example"; // string | 
 $phone = "phone_example"; // string | 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **notificationOperatorConf**
-> \s4s/model\OperatorConfiguration notificationOperatorConf($notification_key)
+> \s4s\model\OperatorConfiguration notificationOperatorConf($notification_key)
 
 
 
@@ -83,15 +83,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsNotificationApi();
+$api_instance = new s4s\Api\SsNotificationApi();
 $notification_key = "notification_key_example"; // string | 
 
 try {
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\OperatorConfiguration**](../Model/OperatorConfiguration.md)
+[**\s4s\model\OperatorConfiguration**](../Model/OperatorConfiguration.md)
 
 ### Authorization
 
@@ -137,17 +137,17 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsNotificationApi();
+$api_instance = new s4s\Api\SsNotificationApi();
 $notification_key = "notification_key_example"; // string | 
-$email = new \s4s/model\Email(); // \s4s/model\Email | 
+$email = new \s4s\model\Email(); // \s4s\model\Email | 
 
 try {
     $result = $api_instance->notificationOperatorSendEmail($notification_key, $email);
@@ -163,7 +163,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **notification_key** | **string**|  |
- **email** | [**\s4s/model\Email**](../Model/\s4s/model\Email.md)|  | [optional]
+ **email** | [**\s4s\model\Email**](../Model/\s4s\model\Email.md)|  | [optional]
 
 ### Return type
 
@@ -193,17 +193,17 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsNotificationApi();
+$api_instance = new s4s\Api\SsNotificationApi();
 $user_id = "user_id_example"; // string | 
-$email = new \s4s/model\Email(); // \s4s/model\Email | 
+$email = new \s4s\model\Email(); // \s4s\model\Email | 
 
 try {
     $result = $api_instance->notificationUserSendEmail($user_id, $email);
@@ -219,7 +219,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **user_id** | **string**|  |
- **email** | [**\s4s/model\Email**](../Model/\s4s/model\Email.md)|  | [optional]
+ **email** | [**\s4s\model\Email**](../Model/\s4s\model\Email.md)|  | [optional]
 
 ### Return type
 

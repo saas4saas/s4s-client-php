@@ -1,4 +1,4 @@
-# Swagger\Client\SsPricingApi
+# s4s\SsPricingApi
 
 All URIs are relative to *https://*
 
@@ -24,7 +24,7 @@ Method | HTTP request | Description
 
 
 # **customerBillClose**
-> \s4s/model\CustomerBill customerBillClose($customer_id, $customer_bill_id)
+> \s4s\model\CustomerBill customerBillClose($customer_id, $customer_bill_id)
 
 
 
@@ -36,15 +36,15 @@ Method | HTTP request | Description
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $customer_bill_id = "customer_bill_id_example"; // string | 
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -80,7 +80,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillGet**
-> \s4s/model\CustomerBill customerBillGet($customer_id, $customer_bill_id)
+> \s4s\model\CustomerBill customerBillGet($customer_id, $customer_bill_id)
 
 
 
@@ -92,15 +92,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $customer_bill_id = "customer_bill_id_example"; // string | 
 
@@ -122,7 +122,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -136,7 +136,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillInitGet**
-> \s4s/model\CustomerBill customerBillInitGet($customer_id, $bill_id, $customer_plan_id)
+> \s4s\model\CustomerBill customerBillInitGet($customer_id, $bill_id, $customer_plan_id)
 
 
 
@@ -148,15 +148,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $bill_id = "bill_id_example"; // string | 
 $customer_plan_id = "customer_plan_id_example"; // string | 
@@ -180,7 +180,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillInitPost**
-> \s4s/model\CustomerBill customerBillInitPost($customer_id, $bill_id, $customer_plan_id)
+> \s4s\model\CustomerBill customerBillInitPost($customer_id, $bill_id, $customer_plan_id)
 
 
 
@@ -206,15 +206,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $bill_id = "bill_id_example"; // string | 
 $customer_plan_id = "customer_plan_id_example"; // string | 
@@ -238,7 +238,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -252,7 +252,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillOrGet**
-> \s4s/model\CustomerBill customerBillOrGet($customer_id)
+> \s4s\model\CustomerBill customerBillOrGet($customer_id)
 
 
 
@@ -264,15 +264,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 
 try {
@@ -292,7 +292,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -306,7 +306,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillPaymentAdd**
-> \s4s/model\CustomerBill customerBillPaymentAdd($customer_id, $bill_id, $payment_id)
+> \s4s\model\CustomerBill customerBillPaymentAdd($customer_id, $bill_id, $payment_id)
 
 
 
@@ -318,15 +318,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $bill_id = "bill_id_example"; // string | 
 $payment_id = "payment_id_example"; // string | 
@@ -350,7 +350,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerBill**](../Model/CustomerBill.md)
+[**\s4s\model\CustomerBill**](../Model/CustomerBill.md)
 
 ### Authorization
 
@@ -364,7 +364,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerBillValues**
-> \s4s/model\DataListCustomerBill customerBillValues($customer_id, $page, $number_per_page)
+> \s4s\model\DataListCustomerBill customerBillValues($customer_id, $page, $number_per_page)
 
 
 
@@ -376,15 +376,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $page = 56; // int | 
 $number_per_page = 56; // int | 
@@ -408,7 +408,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\DataListCustomerBill**](../Model/DataListCustomerBill.md)
+[**\s4s\model\DataListCustomerBill**](../Model/DataListCustomerBill.md)
 
 ### Authorization
 
@@ -422,7 +422,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerHistoryPlanValues**
-> \s4s/model\DataListCustomerPlan customerHistoryPlanValues($customer_id, $page, $number_per_page)
+> \s4s\model\DataListCustomerPlan customerHistoryPlanValues($customer_id, $page, $number_per_page)
 
 
 
@@ -434,15 +434,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $page = 56; // int | 
 $number_per_page = 56; // int | 
@@ -466,7 +466,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\DataListCustomerPlan**](../Model/DataListCustomerPlan.md)
+[**\s4s\model\DataListCustomerPlan**](../Model/DataListCustomerPlan.md)
 
 ### Authorization
 
@@ -480,7 +480,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanAdd**
-> \s4s/model\CustomerPlan customerPlanAdd($customer_id, $customer_plan)
+> \s4s\model\CustomerPlan customerPlanAdd($customer_id, $customer_plan)
 
 
 
@@ -492,17 +492,17 @@ Add a new Product to a Customer
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
-$customer_plan = new \s4s/model\CustomerPlan(); // \s4s/model\CustomerPlan | 
+$customer_plan = new \s4s\model\CustomerPlan(); // \s4s\model\CustomerPlan | 
 
 try {
     $result = $api_instance->customerPlanAdd($customer_id, $customer_plan);
@@ -518,11 +518,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **string**|  |
- **customer_plan** | [**\s4s/model\CustomerPlan**](../Model/\s4s/model\CustomerPlan.md)|  | [optional]
+ **customer_plan** | [**\s4s\model\CustomerPlan**](../Model/\s4s\model\CustomerPlan.md)|  | [optional]
 
 ### Return type
 
-[**\s4s/model\CustomerPlan**](../Model/CustomerPlan.md)
+[**\s4s\model\CustomerPlan**](../Model/CustomerPlan.md)
 
 ### Authorization
 
@@ -536,7 +536,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanAddCheck**
-> \s4s/model\CustomerPlan customerPlanAddCheck($customer_id, $customer_plan)
+> \s4s\model\CustomerPlan customerPlanAddCheck($customer_id, $customer_plan)
 
 
 
@@ -548,17 +548,17 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
-$customer_plan = new \s4s/model\CustomerPlan(); // \s4s/model\CustomerPlan | 
+$customer_plan = new \s4s\model\CustomerPlan(); // \s4s\model\CustomerPlan | 
 
 try {
     $result = $api_instance->customerPlanAddCheck($customer_id, $customer_plan);
@@ -574,11 +574,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **string**|  |
- **customer_plan** | [**\s4s/model\CustomerPlan**](../Model/\s4s/model\CustomerPlan.md)|  | [optional]
+ **customer_plan** | [**\s4s\model\CustomerPlan**](../Model/\s4s\model\CustomerPlan.md)|  | [optional]
 
 ### Return type
 
-[**\s4s/model\CustomerPlan**](../Model/CustomerPlan.md)
+[**\s4s\model\CustomerPlan**](../Model/CustomerPlan.md)
 
 ### Authorization
 
@@ -604,15 +604,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $customer_plan_id = "customer_plan_id_example"; // string | 
 
@@ -648,7 +648,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanFamily**
-> \s4s/model\CustomerPlan customerPlanFamily($customer_id, $family)
+> \s4s\model\CustomerPlan customerPlanFamily($customer_id, $family)
 
 
 
@@ -660,15 +660,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $family = "family_example"; // string | 
 
@@ -690,7 +690,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerPlan**](../Model/CustomerPlan.md)
+[**\s4s\model\CustomerPlan**](../Model/CustomerPlan.md)
 
 ### Authorization
 
@@ -704,7 +704,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanGet**
-> \s4s/model\CustomerPlan customerPlanGet($customer_id, $customer_plan_id)
+> \s4s\model\CustomerPlan customerPlanGet($customer_id, $customer_plan_id)
 
 
 
@@ -716,15 +716,15 @@ Get a certain
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $customer_plan_id = "customer_plan_id_example"; // string | 
 
@@ -746,7 +746,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\CustomerPlan**](../Model/CustomerPlan.md)
+[**\s4s\model\CustomerPlan**](../Model/CustomerPlan.md)
 
 ### Authorization
 
@@ -772,15 +772,15 @@ Get all Products Customers
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 
 try {
@@ -826,15 +826,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $customer_plan_id = "customer_plan_id_example"; // string | 
 $customer_bill_id = "customer_bill_id_example"; // string | 
@@ -874,7 +874,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanPlan**
-> \s4s/model\Plan customerPlanPlan($customer_id, $plan_id)
+> \s4s\model\Plan customerPlanPlan($customer_id, $plan_id)
 
 
 
@@ -886,15 +886,15 @@ Get all the actual customerPlanId for the planId
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $plan_id = "plan_id_example"; // string | 
 
@@ -916,7 +916,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\Plan**](../Model/Plan.md)
+[**\s4s\model\Plan**](../Model/Plan.md)
 
 ### Authorization
 
@@ -930,7 +930,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerPlanValues**
-> \s4s/model\DataListCustomerPlan customerPlanValues($customer_id, $page, $number_per_page)
+> \s4s\model\DataListCustomerPlan customerPlanValues($customer_id, $page, $number_per_page)
 
 
 
@@ -942,15 +942,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsPricingApi();
+$api_instance = new s4s\Api\SsPricingApi();
 $customer_id = "customer_id_example"; // string | 
 $page = 56; // int | 
 $number_per_page = 56; // int | 
@@ -974,7 +974,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\s4s/model\DataListCustomerPlan**](../Model/DataListCustomerPlan.md)
+[**\s4s\model\DataListCustomerPlan**](../Model/DataListCustomerPlan.md)
 
 ### Authorization
 

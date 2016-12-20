@@ -1,4 +1,4 @@
-# Swagger\Client\SsResourceApi
+# s4s\SsResourceApi
 
 All URIs are relative to *https://*
 
@@ -27,15 +27,15 @@ Method | HTTP request | Description
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
 
@@ -83,15 +83,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **resourceCustomerResourcePatch**
-> \s4s/model\ResourcePatchResult resourceCustomerResourcePatch($customer_id, $resourceid, $value)
+> \s4s\model\ResourcePatchResult resourceCustomerResourcePatch($customer_id, $resourceid, $value)
 
 
 
@@ -139,18 +139,18 @@ Updates a resource of a customer
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
-$value = new \s4s/model\ResourcePatch(); // \s4s/model\ResourcePatch | The Operation and value to update the resource
+$value = new \s4s\model\ResourcePatch(); // \s4s\model\ResourcePatch | The Operation and value to update the resource
 
 try {
     $result = $api_instance->resourceCustomerResourcePatch($customer_id, $resourceid, $value);
@@ -167,11 +167,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **string**|  |
  **resourceid** | **string**|  |
- **value** | [**\s4s/model\ResourcePatch**](../Model/\s4s/model\ResourcePatch.md)| The Operation and value to update the resource | [optional]
+ **value** | [**\s4s\model\ResourcePatch**](../Model/\s4s\model\ResourcePatch.md)| The Operation and value to update the resource | [optional]
 
 ### Return type
 
-[**\s4s/model\ResourcePatchResult**](../Model/ResourcePatchResult.md)
+[**\s4s\model\ResourcePatchResult**](../Model/ResourcePatchResult.md)
 
 ### Authorization
 
@@ -197,15 +197,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
 $customer_product_id = "customer_product_id_example"; // string | 
@@ -255,15 +255,15 @@ Get the actual consumition of a resource
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
 $also_delete_limit = true; // bool | 
@@ -313,15 +313,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
 
@@ -357,7 +357,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **resourceCustomerResourceUnspendPatch**
-> \s4s/model\ResourcePatchResult resourceCustomerResourceUnspendPatch($customer_id, $resourceid, $value)
+> \s4s\model\ResourcePatchResult resourceCustomerResourceUnspendPatch($customer_id, $resourceid, $value)
 
 
 
@@ -369,18 +369,18 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 $resourceid = "resourceid_example"; // string | 
-$value = new \s4s/model\ResourcePatch(); // \s4s/model\ResourcePatch | 
+$value = new \s4s\model\ResourcePatch(); // \s4s\model\ResourcePatch | 
 
 try {
     $result = $api_instance->resourceCustomerResourceUnspendPatch($customer_id, $resourceid, $value);
@@ -397,11 +397,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **string**|  |
  **resourceid** | **string**|  |
- **value** | [**\s4s/model\ResourcePatch**](../Model/\s4s/model\ResourcePatch.md)|  | [optional]
+ **value** | [**\s4s\model\ResourcePatch**](../Model/\s4s\model\ResourcePatch.md)|  | [optional]
 
 ### Return type
 
-[**\s4s/model\ResourcePatchResult**](../Model/ResourcePatchResult.md)
+[**\s4s\model\ResourcePatchResult**](../Model/ResourcePatchResult.md)
 
 ### Authorization
 
@@ -427,15 +427,15 @@ Name | Type | Description  | Notes
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: tenantid
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('tenantid', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('tenantid', 'Bearer');
 // Configure API key authorization: token
-Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
+s4s\Configuration::getDefaultConfiguration()->setApiKey('token', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
+// s4s\Configuration::getDefaultConfiguration()->setApiKeyPrefix('token', 'Bearer');
 
-$api_instance = new Swagger\Client\Api\SsResourceApi();
+$api_instance = new s4s\Api\SsResourceApi();
 $customer_id = "customer_id_example"; // string | 
 
 try {

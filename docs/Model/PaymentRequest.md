@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **paid_timespan** | **int** |  | [optional] 
 **state** | **string** |  | [optional] 
 **what_pays** | **map[string,int]** |  | [optional] 
-**price** | [**\s4s/model\Price**](Price.md) |  | [optional] 
+**price** | [**\s4s\model\Price**](Price.md) |  | [optional] 
 **bill_id** | **string** |  | [optional] 
 **customer_id** | **string** |  | [optional] 
 **id** | **string** |  | [optional] 

@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**data** | [**\s4s/model\CustomerBill[]**](CustomerBill.md) |  | [optional] 
+**data** | [**\s4s\model\CustomerBill[]**](CustomerBill.md) |  | [optional] 
 **page** | **int** |  | [optional] 
 **total_page** | **int** |  | [optional] 
 

@@ -3,12 +3,12 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**variable_cost** | [**map[string,\s4s/model\VariableCost]**](VariableCost.md) |  | [optional] 
+**variable_cost** | [**map[string,\s4s\model\VariableCost]**](VariableCost.md) |  | [optional] 
 **name** | **string** |  | [optional] 
-**one_time_pay** | [**\s4s/model\OneTimePay**](OneTimePay.md) |  | [optional] 
+**one_time_pay** | [**\s4s\model\OneTimePay**](OneTimePay.md) |  | [optional] 
 **has_variable_cost** | **bool** |  | [optional] 
 **description** | **string** |  | [optional] 
-**subscription** | [**\s4s/model\Subscription**](Subscription.md) |  | [optional] 
+**subscription** | [**\s4s\model\Subscription**](Subscription.md) |  | [optional] 
 **before_plan_id** | **string** |  | [optional] 
 **on_expiraty_next_plan_id** | **string** |  | [optional] 
 **upgrade_level** | **int** |  | [optional] 
