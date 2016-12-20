@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **data** | **map[string,string]** |  | [optional] 
 **default_user_id** | **string** |  | [optional] 
 **id** | **string** |  | [optional] 
-**default_user** | [**\Swagger\Client\Model\User**](User.md) |  | [optional] 
+**default_user** | [**\s4s\model\User**](User.md) |  | [optional] 
 **status** | **string** |  | [optional] 
 **typ** | **string** |  | [optional] 
 
